@@ -1,0 +1,147 @@
+body {
+  background-color: #2B333E;
+  font-family: 'lato', 'sans serif'; }
+
+#app {
+  max-width: 768px; }
+  #app .btn-u-transac-success {
+    background-color: #FC8B25 !important;
+    color: white; }
+
+#header {
+  width: 100%;
+  height: 60px;
+  background-color: #fc8b25; }
+  #header .header-logo {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px; }
+  #header .branch-type {
+    color: #F4F4F4;
+    font-size: 10px; }
+  #header .branch-locator-button {
+    width: auto;
+    background-color: #f4f4f4;
+    border-radius: 3px; }
+    #header .branch-locator-button .icon {
+      width: 37px; }
+    #header .branch-locator-button .title {
+      font-weight: 600;
+      font-size: 12px; }
+    #header .branch-locator-button .text {
+      font-size: 10px; }
+  #header .utransac-switch {
+    padding-top: 14px; }
+    #header .utransac-switch .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px; }
+    #header .utransac-switch .switch input {
+      display: none; }
+    #header .utransac-switch .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    #header .utransac-switch .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s; }
+    #header .utransac-switch input:checked + .slider {
+      background-color: #2196F3; }
+    #header .utransac-switch input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3; }
+    #header .utransac-switch input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px); }
+    #header .utransac-switch .slider.round {
+      border-radius: 34px; }
+    #header .utransac-switch .slider.round:before {
+      border-radius: 50%; }
+
+#body .box-choose h4 {
+  color: white; }
+
+#body .custom-padding-top {
+  padding-top: 23px; }
+
+#body .header {
+  color: white; }
+
+#body .header-description {
+  color: #B0B3B7; }
+
+#body .box-choose {
+  margin-bottom: 30px; }
+
+#body .border-div {
+  border: 1px solid #F4F4F4; }
+
+#body .font-small-white {
+  color: white; }
+
+#body .nearest-container {
+  background-color: #F4F4F4; }
+
+#body .nearest-container-footer {
+  background-color: #FC8B25;
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+  margin-top: -20px; }
+
+#body .number-queue {
+  color: #FC8B25; }
+
+#body .light-font {
+  font-weight: 300;
+  color: black; }
+
+#body .list-branches {
+  color: #F4F4F4; }
+  #body .list-branches .nearest-container {
+    background-color: #2B333E; }
+  #body .list-branches .light-font {
+    font-weight: 300;
+    color: #F4F4F4; }
+
+#body .back-container {
+  background-color: #39434F;
+  padding: 1px 10px 1px 10px; }
+
+#body .container-form {
+  padding: 10px; }
+  #body .container-form .btn-u-transac-success {
+    background-color: #FC8B25 !important;
+    color: white; }
+  #body .container-form .procedure {
+    color: #f4f4f4; }
+
+#body .transact-container-sumary {
+  background-color: #F4F4F4;
+  color: black;
+  padding: 20px; }
+
+.lastpage {
+  padding: 30px; }
+
+#landing-page {
+  max-width: 768px;
+  text-align: center;
+  background-color: #2B333E; }
+  #landing-page .btn-u-transac-success {
+    background-color: #FC8B25 !important;
+    color: white; }
